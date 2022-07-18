@@ -1,0 +1,22 @@
+[0.017s] Invoking command in '/home/junwoo/dev_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/junwoo/dev_ws/build/tutorial_interfaces -- -j8 -l8
+[0.043s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.064s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.231s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.341s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.344s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.351s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.442s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.468s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.547s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.576s] CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[0.577s]   rosidl_generate_interfaces() the passed file 'msg/Num.sg' doesn't exist
+[0.577s]   relative to the CMAKE_CURRENT_SOURCE_DIR
+[0.577s]   '/home/junwoo/dev_ws/src/tutorial_interfaces'
+[0.577s] Call Stack (most recent call first):
+[0.577s]   CMakeLists.txt:39 (rosidl_generate_interfaces)
+[0.577s] 
+[0.577s] 
+[0.578s] -- Configuring incomplete, errors occurred!
+[0.578s] See also "/home/junwoo/dev_ws/build/tutorial_interfaces/CMakeFiles/CMakeOutput.log".
+[0.582s] make: *** [Makefile:222: cmake_check_build_system] Error 1
+[0.586s] Invoked command in '/home/junwoo/dev_ws/build/tutorial_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/junwoo/dev_ws/build/tutorial_interfaces -- -j8 -l8

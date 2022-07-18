@@ -1,0 +1,38 @@
+[0.016s] Invoking command in '/home/junwoo/dev_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/junwoo/dev_ws/build/cpp_srvcli -- -j8 -l8
+[0.052s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.074s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.250s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.294s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.298s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.415s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.477s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.478s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.633s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[0.752s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.870s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.871s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.871s] -- Configured cppcheck include dirs: 
+[0.871s] -- Configured cppcheck exclude dirs and/or files: 
+[0.872s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.872s] -- Configured cpplint exclude dirs and/or files: 
+[0.872s] -- Added test 'lint_cmake' to check CMake code style
+[0.873s] -- Added test 'uncrustify' to check C / C++ code style
+[0.873s] -- Configured uncrustify additional arguments: 
+[0.874s] -- Added test 'xmllint' to check XML markup files
+[0.876s] -- Configuring done
+[0.877s] CMake Error at CMakeLists.txt:39 (add_executable):
+[0.877s]   Cannot find source file:
+[0.878s] 
+[0.878s]     src/add_two_ints_client.cpp
+[0.878s] 
+[0.878s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+[0.878s]   .hpp .hxx .in .txx
+[0.878s] 
+[0.878s] 
+[0.879s] CMake Error at CMakeLists.txt:39 (add_executable):
+[0.879s]   No SOURCES given to target: client
+[0.879s] 
+[0.879s] 
+[0.879s] CMake Generate step failed.  Build files cannot be regenerated correctly.
+[0.883s] make: *** [Makefile:266: cmake_check_build_system] Error 1
+[0.884s] Invoked command in '/home/junwoo/dev_ws/build/cpp_srvcli' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/junwoo/dev_ws/build/cpp_srvcli -- -j8 -l8

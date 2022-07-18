@@ -1,0 +1,289 @@
+[0.000000] (-) TimerEvent: {}
+[0.000158] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.000431] (tutorial_interfaces) JobQueued: {'identifier': 'tutorial_interfaces', 'dependencies': OrderedDict()}
+[0.000723] (tutorial_interfaces) JobStarted: {'identifier': 'tutorial_interfaces'}
+[0.011997] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'cmake'}
+[0.012833] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'build'}
+[0.013679] (tutorial_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/junwoo/dev_ws/build/tutorial_interfaces', '--', '-j8', '-l8'], 'cwd': '/home/junwoo/dev_ws/build/tutorial_interfaces', 'env': OrderedDict([('USER', 'junwoo'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_AGENT_PID', '2002'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/junwoo'), ('OLDPWD', '/home/junwoo/dev_ws/src'), ('LESS', '-R'), ('DESKTOP_SESSION', 'ubuntu'), ('ZSH', '/home/junwoo/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('MANAGERPID', '1509'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7090'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('COLCON_PREFIX_PATH', '/home/junwoo/dev_ws/install'), ('LOGNAME', 'junwoo'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:52885'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('USERNAME', 'junwoo'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/junwoo/gems/bin:/opt/ros/foxy/bin:/home/junwoo/gems/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/junwoo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/junwoo-ThinkPad-T470p:@/tmp/.ICE-unix/2040,unix/junwoo-ThinkPad-T470p:/tmp/.ICE-unix/2040'), ('PAPERSIZE', 'letter'), ('INVOCATION_ID', 'f95bd5a17be24cc3bfa2cead0033f139'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LC_ADDRESS', 'en_US.UTF-8'), ('DISPLAY', ':0'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LANG', 'en_US.UTF-8'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/junwoo/dev_ws/install/tutorial_interfaces:/home/junwoo/dev_ws/install/cpp_srvcli:/opt/ros/foxy'), ('TERMINATOR_UUID', 'urn:uuid:c2bbb646-edff-4259-bf0e-bb0773c5edf0'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GEM_HOME', '/home/junwoo/gems'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/junwoo/dev_ws/build/tutorial_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'en_US.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/junwoo/dev_ws/install/tutorial_interfaces:/home/junwoo/dev_ws/install/cpp_srvcli:/opt/ros/foxy')]), 'shell': False}
+[0.044166] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.066316] (tutorial_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.099354] (-) TimerEvent: {}
+[0.199740] (-) TimerEvent: {}
+[0.231693] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[0.299860] (-) TimerEvent: {}
+[0.343113] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.345316] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.348555] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.399952] (-) TimerEvent: {}
+[0.476095] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.500096] (-) TimerEvent: {}
+[0.519044] (tutorial_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[0.600191] (-) TimerEvent: {}
+[0.622135] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[0.700293] (-) TimerEvent: {}
+[0.710720] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.719599] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.741741] (tutorial_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[0.743180] (tutorial_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[0.769574] (tutorial_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[0.769834] (tutorial_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.769916] (tutorial_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[0.769985] (tutorial_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[0.790037] (tutorial_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[0.800373] (-) TimerEvent: {}
+[0.831379] (tutorial_interfaces) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.833543] (tutorial_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.834637] (tutorial_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.842395] (tutorial_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.875653] (tutorial_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[0.879060] (tutorial_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/junwoo/dev_ws/build/tutorial_interfaces\n'}
+[0.900471] (-) TimerEvent: {}
+[0.901941] (tutorial_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[0.902297] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tutorial_interfaces__cpp\x1b[0m\n'}
+[0.911955] (tutorial_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.000568] (-) TimerEvent: {}
+[1.100859] (-) TimerEvent: {}
+[1.201146] (-) TimerEvent: {}
+[1.211296] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tutorial_interfaces__rosidl_generator_c\x1b[0m\n'}
+[1.219461] (tutorial_interfaces) StdoutLine: {'line': b'[  5%] Built target tutorial_interfaces__cpp\n'}
+[1.222739] (tutorial_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/srv/detail/add_three_ints__functions.c.o\x1b[0m\n'}
+[1.222962] (tutorial_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/num__functions.c.o\x1b[0m\n'}
+[1.230128] (tutorial_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.230392] (tutorial_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.232113] (tutorial_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.270801] (tutorial_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libtutorial_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[1.301254] (-) TimerEvent: {}
+[1.305440] (tutorial_interfaces) StdoutLine: {'line': b'[ 20%] Built target tutorial_interfaces__rosidl_generator_c\n'}
+[1.315622] (tutorial_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.315851] (tutorial_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.401348] (-) TimerEvent: {}
+[1.501644] (-) TimerEvent: {}
+[1.538422] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[1.568728] (tutorial_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[1.570042] (tutorial_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/msg/detail/dds_fastrtps/num__type_support.cpp.o\x1b[0m\n'}
+[1.601749] (-) TimerEvent: {}
+[1.613838] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tutorial_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[1.632392] (tutorial_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/srv/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[1.634093] (tutorial_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/msg/num__type_support.cpp.o\x1b[0m\n'}
+[1.662815] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tutorial_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[1.680899] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tutorial_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[1.686370] (tutorial_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/msg/detail/num__type_support.cpp.o\x1b[0m\n'}
+[1.688192] (tutorial_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/srv/detail/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[1.701120] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tutorial_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[1.701829] (-) TimerEvent: {}
+[1.703891] (tutorial_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/msg/num__type_support.cpp.o\x1b[0m\n'}
+[1.760314] (tutorial_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/msg/detail/num__type_support.c.o\x1b[0m\n'}
+[1.796798] (tutorial_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/srv/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[1.801943] (-) TimerEvent: {}
+[1.845117] (tutorial_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/srv/detail/add_three_ints__type_support.c.o\x1b[0m\n'}
+[1.886670] (tutorial_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[1.902052] (-) TimerEvent: {}
+[1.939366] (tutorial_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking C shared library libtutorial_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[1.961328] (tutorial_interfaces) StdoutLine: {'line': b'[ 56%] Built target tutorial_interfaces__rosidl_typesupport_c\n'}
+[1.998636] (tutorial_interfaces) StdoutLine: {'line': b'[ 56%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c\n'}
+[2.002158] (-) TimerEvent: {}
+[2.102497] (-) TimerEvent: {}
+[2.136022] (tutorial_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[2.174851] (tutorial_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[2.183777] (tutorial_interfaces) StdoutLine: {'line': b'[ 61%] Built target tutorial_interfaces__rosidl_typesupport_cpp\n'}
+[2.202613] (-) TimerEvent: {}
+[2.218294] (tutorial_interfaces) StdoutLine: {'line': b'[ 61%] Built target tutorial_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[2.254194] (tutorial_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[2.302742] (-) TimerEvent: {}
+[2.344290] (tutorial_interfaces) StdoutLine: {'line': b'[ 64%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[2.353873] (tutorial_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.402829] (-) TimerEvent: {}
+[2.503206] (-) TimerEvent: {}
+[2.603553] (-) TimerEvent: {}
+[2.632991] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tutorial_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[2.650157] (tutorial_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/srv/detail/add_three_ints__type_support_c.cpp.o\x1b[0m\n'}
+[2.650473] (tutorial_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/msg/detail/num__type_support_c.cpp.o\x1b[0m\n'}
+[2.703680] (-) TimerEvent: {}
+[2.804004] (-) TimerEvent: {}
+[2.904286] (-) TimerEvent: {}
+[3.004553] (-) TimerEvent: {}
+[3.007134] (tutorial_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[3.094856] (tutorial_interfaces) StdoutLine: {'line': b'[ 74%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[3.104607] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tutorial_interfaces\x1b[0m\n'}
+[3.105003] (-) TimerEvent: {}
+[3.114900] (tutorial_interfaces) StdoutLine: {'line': b'[ 74%] Built target tutorial_interfaces\n'}
+[3.124421] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tutorial_interfaces__py\x1b[0m\n'}
+[3.135166] (tutorial_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[3.205082] (-) TimerEvent: {}
+[3.305413] (-) TimerEvent: {}
+[3.405814] (-) TimerEvent: {}
+[3.506134] (-) TimerEvent: {}
+[3.606452] (-) TimerEvent: {}
+[3.633724] (tutorial_interfaces) StdoutLine: {'line': b'[ 76%] Built target tutorial_interfaces__py\n'}
+[3.643738] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tutorial_interfaces__python\x1b[0m\n'}
+[3.675779] (tutorial_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__python.dir/rosidl_generator_py/tutorial_interfaces/msg/_num_s.c.o\x1b[0m\n'}
+[3.676159] (tutorial_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__python.dir/rosidl_generator_py/tutorial_interfaces/srv/_add_three_ints_s.c.o\x1b[0m\n'}
+[3.706554] (-) TimerEvent: {}
+[3.776393] (tutorial_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/libtutorial_interfaces__python.so\x1b[0m\n'}
+[3.806655] (-) TimerEvent: {}
+[3.813596] (tutorial_interfaces) StdoutLine: {'line': b'[ 84%] Built target tutorial_interfaces__python\n'}
+[3.823222] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tutorial_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[3.823436] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tutorial_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[3.823558] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[3.841825] (tutorial_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[3.847282] (tutorial_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[3.847493] (tutorial_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[3.906761] (-) TimerEvent: {}
+[3.926527] (tutorial_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.930221] (tutorial_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.932727] (tutorial_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.960688] (tutorial_interfaces) StdoutLine: {'line': b'[100%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[3.963647] (tutorial_interfaces) StdoutLine: {'line': b'[100%] Built target tutorial_interfaces__rosidl_typesupport_c__pyext\n'}
+[3.995362] (tutorial_interfaces) StdoutLine: {'line': b'[100%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[4.006709] (tutorial_interfaces) CommandEnded: {'returncode': 0}
+[4.009013] (-) TimerEvent: {}
+[4.064504] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'install'}
+[4.076599] (tutorial_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/junwoo/dev_ws/build/tutorial_interfaces'], 'cwd': '/home/junwoo/dev_ws/build/tutorial_interfaces', 'env': OrderedDict([('USER', 'junwoo'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_AGENT_PID', '2002'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/junwoo'), ('OLDPWD', '/home/junwoo/dev_ws/src'), ('LESS', '-R'), ('DESKTOP_SESSION', 'ubuntu'), ('ZSH', '/home/junwoo/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('MANAGERPID', '1509'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7090'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('COLCON_PREFIX_PATH', '/home/junwoo/dev_ws/install'), ('LOGNAME', 'junwoo'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:52885'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('USERNAME', 'junwoo'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/junwoo/gems/bin:/opt/ros/foxy/bin:/home/junwoo/gems/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/junwoo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/junwoo-ThinkPad-T470p:@/tmp/.ICE-unix/2040,unix/junwoo-ThinkPad-T470p:/tmp/.ICE-unix/2040'), ('PAPERSIZE', 'letter'), ('INVOCATION_ID', 'f95bd5a17be24cc3bfa2cead0033f139'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LC_ADDRESS', 'en_US.UTF-8'), ('DISPLAY', ':0'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LANG', 'en_US.UTF-8'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/junwoo/dev_ws/install/tutorial_interfaces:/home/junwoo/dev_ws/install/cpp_srvcli:/opt/ros/foxy'), ('TERMINATOR_UUID', 'urn:uuid:c2bbb646-edff-4259-bf0e-bb0773c5edf0'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GEM_HOME', '/home/junwoo/gems'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/junwoo/dev_ws/build/tutorial_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'en_US.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/junwoo/dev_ws/install/tutorial_interfaces:/home/junwoo/dev_ws/install/cpp_srvcli:/opt/ros/foxy')]), 'shell': False}
+[4.085852] (tutorial_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.086187] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/share/ament_index/resource_index/rosidl_interfaces/tutorial_interfaces\n'}
+[4.086489] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces\n'}
+[4.086691] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg\n'}
+[4.086935] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[4.087092] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/num.h\n'}
+[4.087242] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail\n'}
+[4.087391] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__type_support.h\n'}
+[4.087561] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__struct.h\n'}
+[4.087707] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__functions.h\n'}
+[4.087876] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__functions.c\n'}
+[4.088021] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv\n'}
+[4.088169] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/add_three_ints.h\n'}
+[4.088316] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail\n'}
+[4.088471] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__functions.c\n'}
+[4.088601] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__struct.h\n'}
+[4.088755] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__functions.h\n'}
+[4.088885] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__type_support.h\n'}
+[4.089041] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.sh\n'}
+[4.089167] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.dsv\n'}
+[4.089305] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so\n'}
+[4.089505] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/junwoo/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so" to ""\n'}
+[4.089664] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junwoo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces\n'}
+[4.089836] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junwoo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg\n'}
+[4.089998] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[4.090156] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junwoo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail\n'}
+[4.090316] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_c.h\n'}
+[4.090480] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junwoo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv\n'}
+[4.090607] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junwoo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail\n'}
+[4.090734] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h\n'}
+[4.090873] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[4.091046] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/junwoo/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[4.091236] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junwoo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces\n'}
+[4.091405] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junwoo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg\n'}
+[4.091562] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junwoo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail\n'}
+[4.091739] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/dds_fastrtps\n'}
+[4.091888] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.092032] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[4.092182] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junwoo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv\n'}
+[4.092313] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junwoo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail\n'}
+[4.092439] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.092578] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/dds_fastrtps\n'}
+[4.092842] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[4.093047] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/junwoo/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[4.093197] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junwoo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces\n'}
+[4.093342] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junwoo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg\n'}
+[4.093507] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junwoo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail\n'}
+[4.093651] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_c.h\n'}
+[4.093799] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__type_support.c\n'}
+[4.093919] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[4.094071] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junwoo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv\n'}
+[4.094194] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junwoo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail\n'}
+[4.094326] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__type_support.c\n'}
+[4.094463] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h\n'}
+[4.094608] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[4.094758] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/junwoo/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[4.094891] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so\n'}
+[4.095190] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/junwoo/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[4.095369] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junwoo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces\n'}
+[4.095538] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junwoo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg\n'}
+[4.095692] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junwoo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail\n'}
+[4.095916] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__builder.hpp\n'}
+[4.096089] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__traits.hpp\n'}
+[4.096222] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__struct.hpp\n'}
+[4.096320] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/num.hpp\n'}
+[4.096416] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junwoo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv\n'}
+[4.096486] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/add_three_ints.hpp\n'}
+[4.096608] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junwoo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail\n'}
+[4.096719] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__builder.hpp\n'}
+[4.096810] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__traits.hpp\n'}
+[4.096942] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__struct.hpp\n'}
+[4.097030] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junwoo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces\n'}
+[4.097097] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junwoo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg\n'}
+[4.097164] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junwoo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail\n'}
+[4.097252] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__type_support.cpp\n'}
+[4.097318] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.097384] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junwoo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv\n'}
+[4.097450] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junwoo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail\n'}
+[4.097521] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.097618] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__type_support.cpp\n'}
+[4.097692] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[4.097917] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/junwoo/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[4.098032] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so\n'}
+[4.098258] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/junwoo/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[4.098412] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.sh\n'}
+[4.098541] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.dsv\n'}
+[4.098764] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/__init__.py\n'}
+[4.109051] (-) TimerEvent: {}
+[4.134688] (tutorial_interfaces) StdoutLine: {'line': b"Compiling '/home/junwoo/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/__init__.py'...\n"}
+[4.139522] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/msg\n'}
+[4.139827] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/msg/__init__.py\n'}
+[4.139982] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/msg/_num_s.c\n'}
+[4.140199] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/msg/_num.py\n'}
+[4.140296] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/srv\n'}
+[4.140388] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/srv/__init__.py\n'}
+[4.140457] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/srv/_add_three_ints.py\n'}
+[4.140535] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/srv/_add_three_ints_s.c\n'}
+[4.140654] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[4.141189] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/junwoo/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[4.141437] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[4.141991] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/junwoo/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[4.142262] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[4.142788] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/junwoo/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[4.143001] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__python.so\n'}
+[4.143307] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/junwoo/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__python.so" to ""\n'}
+[4.143484] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.idl\n'}
+[4.143639] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts.idl\n'}
+[4.143814] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.msg\n'}
+[4.143987] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts.srv\n'}
+[4.144110] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts_Request.msg\n'}
+[4.144222] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts_Response.msg\n'}
+[4.144363] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junwoo/dev_ws/install/tutorial_interfaces/share/ament_index/resource_index/package_run_dependencies/tutorial_interfaces\n'}
+[4.144459] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/share/ament_index/resource_index/parent_prefix_path/tutorial_interfaces\n'}
+[4.144575] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junwoo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.sh\n'}
+[4.144719] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.dsv\n'}
+[4.144870] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junwoo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.sh\n'}
+[4.144991] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.dsv\n'}
+[4.145141] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junwoo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.bash\n'}
+[4.145303] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.sh\n'}
+[4.145436] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junwoo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.zsh\n'}
+[4.145567] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.dsv\n'}
+[4.145699] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv\n'}
+[4.145837] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junwoo/dev_ws/install/tutorial_interfaces/share/ament_index/resource_index/packages/tutorial_interfaces\n'}
+[4.145950] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_generator_cExport.cmake\n'}
+[4.146092] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[4.146234] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[4.146364] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[4.146508] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[4.146612] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[4.146756] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_generator_cppExport.cmake\n'}
+[4.146911] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[4.147063] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[4.147194] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[4.147331] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[4.147467] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[4.147606] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[4.147746] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[4.147885] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[4.148019] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[4.148184] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[4.148323] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[4.148450] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig.cmake\n'}
+[4.148601] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junwoo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig-version.cmake\n'}
+[4.148723] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junwoo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.xml\n'}
+[4.150542] (tutorial_interfaces) CommandEnded: {'returncode': 0}
+[4.209187] (-) TimerEvent: {}
+[4.243667] (tutorial_interfaces) JobEnded: {'identifier': 'tutorial_interfaces', 'rc': 0}
+[4.244543] (-) EventReactorShutdown: {}
