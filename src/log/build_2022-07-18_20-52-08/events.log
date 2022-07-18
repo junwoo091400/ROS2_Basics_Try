@@ -1,0 +1,158 @@
+[0.000000] (-) TimerEvent: {}
+[0.000370] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.000465] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.000504] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict([('tutorial_interfaces', '/home/junwoo/dev_ws/src/install/tutorial_interfaces')])}
+[0.000539] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.012782] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.013167] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '/home/junwoo/dev_ws/src/cpp_pubsub', '-DCMAKE_INSTALL_PREFIX=/home/junwoo/dev_ws/src/install/cpp_pubsub'], 'cwd': '/home/junwoo/dev_ws/src/build/cpp_pubsub', 'env': OrderedDict([('USER', 'junwoo'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_AGENT_PID', '2002'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/junwoo/dev_ws/install/tutorial_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/junwoo'), ('OLDPWD', '/home/junwoo/dev_ws'), ('LESS', '-R'), ('DESKTOP_SESSION', 'ubuntu'), ('ZSH', '/home/junwoo/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('MANAGERPID', '1509'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7090'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('COLCON_PREFIX_PATH', '/home/junwoo/dev_ws/install'), ('LOGNAME', 'junwoo'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:52885'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('USERNAME', 'junwoo'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/junwoo/gems/bin:/opt/ros/foxy/bin:/home/junwoo/gems/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/junwoo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/junwoo-ThinkPad-T470p:@/tmp/.ICE-unix/2040,unix/junwoo-ThinkPad-T470p:/tmp/.ICE-unix/2040'), ('PAPERSIZE', 'letter'), ('INVOCATION_ID', 'f95bd5a17be24cc3bfa2cead0033f139'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LC_ADDRESS', 'en_US.UTF-8'), ('DISPLAY', ':0'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LANG', 'en_US.UTF-8'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/junwoo/dev_ws/install/tutorial_interfaces:/home/junwoo/dev_ws/install/cpp_srvcli:/opt/ros/foxy'), ('TERMINATOR_UUID', 'urn:uuid:c2bbb646-edff-4259-bf0e-bb0773c5edf0'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GEM_HOME', '/home/junwoo/gems'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/junwoo/dev_ws/src/build/cpp_pubsub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'en_US.UTF-8'), ('PYTHONPATH', '/home/junwoo/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/junwoo/dev_ws/install/tutorial_interfaces:/home/junwoo/dev_ws/install/cpp_srvcli:/opt/ros/foxy')]), 'shell': False}
+[0.070102] (cpp_pubsub) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.099214] (-) TimerEvent: {}
+[0.122724] (cpp_pubsub) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.127661] (cpp_pubsub) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.191462] (cpp_pubsub) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.192365] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199290] (-) TimerEvent: {}
+[0.256036] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.267457] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.267800] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.270095] (cpp_pubsub) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.299406] (-) TimerEvent: {}
+[0.344754] (cpp_pubsub) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.346087] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.399493] (-) TimerEvent: {}
+[0.423279] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.435601] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.436611] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.439580] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.466864] (cpp_pubsub) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.467031] (cpp_pubsub) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.499652] (-) TimerEvent: {}
+[0.599918] (-) TimerEvent: {}
+[0.662472] (cpp_pubsub) StdoutLine: {'line': b'-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.700041] (-) TimerEvent: {}
+[0.703270] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.712797] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.782977] (cpp_pubsub) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.800157] (-) TimerEvent: {}
+[0.808430] (cpp_pubsub) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[0.879703] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.900306] (-) TimerEvent: {}
+[0.939434] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.940945] (cpp_pubsub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.948519] (cpp_pubsub) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.000428] (-) TimerEvent: {}
+[1.026568] (cpp_pubsub) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.026955] (cpp_pubsub) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.100522] (-) TimerEvent: {}
+[1.113668] (cpp_pubsub) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.113932] (cpp_pubsub) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.172651] (cpp_pubsub) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.172939] (cpp_pubsub) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.200643] (-) TimerEvent: {}
+[1.240733] (cpp_pubsub) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.241836] (cpp_pubsub) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.300766] (-) TimerEvent: {}
+[1.396837] (cpp_pubsub) StdoutLine: {'line': b'-- Found tutorial_interfaces: 0.0.0 (/home/junwoo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake)\n'}
+[1.400867] (-) TimerEvent: {}
+[1.404902] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.500958] (-) TimerEvent: {}
+[1.531015] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.532055] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.532226] (cpp_pubsub) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.532299] (cpp_pubsub) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.533134] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.533212] (cpp_pubsub) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.533859] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.534755] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.534827] (cpp_pubsub) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.535252] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.538658] (cpp_pubsub) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.548883] (cpp_pubsub) StdoutLine: {'line': b'-- Generating done\n'}
+[1.550269] (cpp_pubsub) StdoutLine: {'line': b'-- Build files have been written to: /home/junwoo/dev_ws/src/build/cpp_pubsub\n'}
+[1.556889] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[1.557484] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[1.558158] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/junwoo/dev_ws/src/build/cpp_pubsub', '--', '-j8', '-l8'], 'cwd': '/home/junwoo/dev_ws/src/build/cpp_pubsub', 'env': OrderedDict([('USER', 'junwoo'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_AGENT_PID', '2002'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/junwoo/dev_ws/install/tutorial_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/junwoo'), ('OLDPWD', '/home/junwoo/dev_ws'), ('LESS', '-R'), ('DESKTOP_SESSION', 'ubuntu'), ('ZSH', '/home/junwoo/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('MANAGERPID', '1509'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7090'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('COLCON_PREFIX_PATH', '/home/junwoo/dev_ws/install'), ('LOGNAME', 'junwoo'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:52885'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('USERNAME', 'junwoo'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/junwoo/gems/bin:/opt/ros/foxy/bin:/home/junwoo/gems/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/junwoo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/junwoo-ThinkPad-T470p:@/tmp/.ICE-unix/2040,unix/junwoo-ThinkPad-T470p:/tmp/.ICE-unix/2040'), ('PAPERSIZE', 'letter'), ('INVOCATION_ID', 'f95bd5a17be24cc3bfa2cead0033f139'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LC_ADDRESS', 'en_US.UTF-8'), ('DISPLAY', ':0'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LANG', 'en_US.UTF-8'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/junwoo/dev_ws/install/tutorial_interfaces:/home/junwoo/dev_ws/install/cpp_srvcli:/opt/ros/foxy'), ('TERMINATOR_UUID', 'urn:uuid:c2bbb646-edff-4259-bf0e-bb0773c5edf0'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GEM_HOME', '/home/junwoo/gems'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/junwoo/dev_ws/src/build/cpp_pubsub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'en_US.UTF-8'), ('PYTHONPATH', '/home/junwoo/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/junwoo/dev_ws/install/tutorial_interfaces:/home/junwoo/dev_ws/install/cpp_srvcli:/opt/ros/foxy')]), 'shell': False}
+[1.598434] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target talker\x1b[0m\n'}
+[1.598613] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target listener\x1b[0m\n'}
+[1.601067] (-) TimerEvent: {}
+[1.636125] (cpp_pubsub) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o\x1b[0m\n'}
+[1.638145] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o\x1b[0m\n'}
+[1.701175] (-) TimerEvent: {}
+[1.801555] (-) TimerEvent: {}
+[1.901829] (-) TimerEvent: {}
+[2.002101] (-) TimerEvent: {}
+[2.102475] (-) TimerEvent: {}
+[2.202815] (-) TimerEvent: {}
+[2.303150] (-) TimerEvent: {}
+[2.403557] (-) TimerEvent: {}
+[2.503889] (-) TimerEvent: {}
+[2.604200] (-) TimerEvent: {}
+[2.704604] (-) TimerEvent: {}
+[2.804961] (-) TimerEvent: {}
+[2.905267] (-) TimerEvent: {}
+[3.005589] (-) TimerEvent: {}
+[3.106129] (-) TimerEvent: {}
+[3.206419] (-) TimerEvent: {}
+[3.306761] (-) TimerEvent: {}
+[3.407105] (-) TimerEvent: {}
+[3.507483] (-) TimerEvent: {}
+[3.607800] (-) TimerEvent: {}
+[3.708118] (-) TimerEvent: {}
+[3.808450] (-) TimerEvent: {}
+[3.908799] (-) TimerEvent: {}
+[4.009140] (-) TimerEvent: {}
+[4.109499] (-) TimerEvent: {}
+[4.209835] (-) TimerEvent: {}
+[4.310136] (-) TimerEvent: {}
+[4.410476] (-) TimerEvent: {}
+[4.510819] (-) TimerEvent: {}
+[4.586287] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[4.610958] (-) TimerEvent: {}
+[4.711250] (-) TimerEvent: {}
+[4.758554] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] Built target talker\n'}
+[4.811320] (-) TimerEvent: {}
+[4.911590] (-) TimerEvent: {}
+[5.011879] (-) TimerEvent: {}
+[5.112154] (-) TimerEvent: {}
+[5.212425] (-) TimerEvent: {}
+[5.312714] (-) TimerEvent: {}
+[5.413084] (-) TimerEvent: {}
+[5.513363] (-) TimerEvent: {}
+[5.613637] (-) TimerEvent: {}
+[5.713910] (-) TimerEvent: {}
+[5.814171] (-) TimerEvent: {}
+[5.914455] (-) TimerEvent: {}
+[6.014736] (-) TimerEvent: {}
+[6.115053] (-) TimerEvent: {}
+[6.215349] (-) TimerEvent: {}
+[6.269238] (cpp_pubsub) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[6.315441] (-) TimerEvent: {}
+[6.415737] (-) TimerEvent: {}
+[6.502100] (cpp_pubsub) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[6.512173] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[6.515856] (-) TimerEvent: {}
+[6.536157] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'install'}
+[6.546136] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/junwoo/dev_ws/src/build/cpp_pubsub'], 'cwd': '/home/junwoo/dev_ws/src/build/cpp_pubsub', 'env': OrderedDict([('USER', 'junwoo'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_AGENT_PID', '2002'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/junwoo/dev_ws/install/tutorial_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/junwoo'), ('OLDPWD', '/home/junwoo/dev_ws'), ('LESS', '-R'), ('DESKTOP_SESSION', 'ubuntu'), ('ZSH', '/home/junwoo/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('MANAGERPID', '1509'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7090'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('COLCON_PREFIX_PATH', '/home/junwoo/dev_ws/install'), ('LOGNAME', 'junwoo'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:52885'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('USERNAME', 'junwoo'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/junwoo/gems/bin:/opt/ros/foxy/bin:/home/junwoo/gems/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/junwoo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/junwoo-ThinkPad-T470p:@/tmp/.ICE-unix/2040,unix/junwoo-ThinkPad-T470p:/tmp/.ICE-unix/2040'), ('PAPERSIZE', 'letter'), ('INVOCATION_ID', 'f95bd5a17be24cc3bfa2cead0033f139'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LC_ADDRESS', 'en_US.UTF-8'), ('DISPLAY', ':0'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LANG', 'en_US.UTF-8'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/junwoo/dev_ws/install/tutorial_interfaces:/home/junwoo/dev_ws/install/cpp_srvcli:/opt/ros/foxy'), ('TERMINATOR_UUID', 'urn:uuid:c2bbb646-edff-4259-bf0e-bb0773c5edf0'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GEM_HOME', '/home/junwoo/gems'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/junwoo/dev_ws/src/build/cpp_pubsub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'en_US.UTF-8'), ('PYTHONPATH', '/home/junwoo/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/junwoo/dev_ws/install/tutorial_interfaces:/home/junwoo/dev_ws/install/cpp_srvcli:/opt/ros/foxy')]), 'shell': False}
+[6.555751] (cpp_pubsub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.556003] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/src/install/cpp_pubsub/lib/cpp_pubsub/talker\n'}
+[6.556791] (cpp_pubsub) StdoutLine: {'line': b'-- Set runtime path of "/home/junwoo/dev_ws/src/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""\n'}
+[6.556922] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/src/install/cpp_pubsub/lib/cpp_pubsub/listener\n'}
+[6.558587] (cpp_pubsub) StdoutLine: {'line': b'-- Set runtime path of "/home/junwoo/dev_ws/src/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""\n'}
+[6.558840] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/src/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub\n'}
+[6.558976] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/src/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub\n'}
+[6.559178] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/src/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh\n'}
+[6.559529] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/src/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv\n'}
+[6.559870] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/src/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh\n'}
+[6.560044] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/src/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv\n'}
+[6.560376] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/src/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash\n'}
+[6.560568] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/src/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh\n'}
+[6.560822] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/src/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh\n'}
+[6.560923] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/src/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv\n'}
+[6.561070] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/src/install/cpp_pubsub/share/cpp_pubsub/package.dsv\n'}
+[6.561224] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/src/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub\n'}
+[6.561358] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/src/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake\n'}
+[6.561469] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/src/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake\n'}
+[6.561548] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/junwoo/dev_ws/src/install/cpp_pubsub/share/cpp_pubsub/package.xml\n'}
+[6.563225] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[6.613608] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 0}
+[6.614365] (-) EventReactorShutdown: {}

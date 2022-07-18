@@ -1,0 +1,83 @@
+[0.016s] Invoking command in '/home/junwoo/dev_ws/src/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/junwoo/dev_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/junwoo/dev_ws/src/install/cpp_pubsub
+[0.070s] -- The C compiler identification is GNU 9.4.0
+[0.122s] -- The CXX compiler identification is GNU 9.4.0
+[0.127s] -- Check for working C compiler: /usr/bin/cc
+[0.191s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.192s] -- Detecting C compiler ABI info
+[0.256s] -- Detecting C compiler ABI info - done
+[0.267s] -- Detecting C compile features
+[0.267s] -- Detecting C compile features - done
+[0.270s] -- Check for working CXX compiler: /usr/bin/c++
+[0.344s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.346s] -- Detecting CXX compiler ABI info
+[0.423s] -- Detecting CXX compiler ABI info - done
+[0.435s] -- Detecting CXX compile features
+[0.436s] -- Detecting CXX compile features - done
+[0.439s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.466s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.467s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.662s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.703s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.712s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.783s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.808s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.879s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.939s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.940s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.948s] -- Looking for pthread.h
+[1.026s] -- Looking for pthread.h - found
+[1.026s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.113s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.113s] -- Looking for pthread_create in pthreads
+[1.172s] -- Looking for pthread_create in pthreads - not found
+[1.172s] -- Looking for pthread_create in pthread
+[1.240s] -- Looking for pthread_create in pthread - found
+[1.241s] -- Found Threads: TRUE  
+[1.396s] -- Found tutorial_interfaces: 0.0.0 (/home/junwoo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake)
+[1.404s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.531s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.532s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.532s] -- Configured cppcheck include dirs: 
+[1.532s] -- Configured cppcheck exclude dirs and/or files: 
+[1.533s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.533s] -- Configured cpplint exclude dirs and/or files: 
+[1.533s] -- Added test 'lint_cmake' to check CMake code style
+[1.534s] -- Added test 'uncrustify' to check C / C++ code style
+[1.534s] -- Configured uncrustify additional arguments: 
+[1.535s] -- Added test 'xmllint' to check XML markup files
+[1.538s] -- Configuring done
+[1.548s] -- Generating done
+[1.550s] -- Build files have been written to: /home/junwoo/dev_ws/src/build/cpp_pubsub
+[1.557s] Invoked command in '/home/junwoo/dev_ws/src/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/junwoo/dev_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/junwoo/dev_ws/src/install/cpp_pubsub
+[1.559s] Invoking command in '/home/junwoo/dev_ws/src/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/junwoo/dev_ws/src/build/cpp_pubsub -- -j8 -l8
+[1.598s] [35m[1mScanning dependencies of target talker[0m
+[1.598s] [35m[1mScanning dependencies of target listener[0m
+[1.636s] [ 25%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[1.638s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[4.586s] [ 75%] [32m[1mLinking CXX executable talker[0m
+[4.758s] [ 75%] Built target talker
+[6.269s] [100%] [32m[1mLinking CXX executable listener[0m
+[6.502s] [100%] Built target listener
+[6.512s] Invoked command in '/home/junwoo/dev_ws/src/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/junwoo/dev_ws/src/build/cpp_pubsub -- -j8 -l8
+[6.547s] Invoking command in '/home/junwoo/dev_ws/src/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/junwoo/dev_ws/src/build/cpp_pubsub
+[6.555s] -- Install configuration: ""
+[6.555s] -- Installing: /home/junwoo/dev_ws/src/install/cpp_pubsub/lib/cpp_pubsub/talker
+[6.556s] -- Set runtime path of "/home/junwoo/dev_ws/src/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""
+[6.556s] -- Installing: /home/junwoo/dev_ws/src/install/cpp_pubsub/lib/cpp_pubsub/listener
+[6.558s] -- Set runtime path of "/home/junwoo/dev_ws/src/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""
+[6.558s] -- Installing: /home/junwoo/dev_ws/src/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[6.558s] -- Installing: /home/junwoo/dev_ws/src/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[6.559s] -- Installing: /home/junwoo/dev_ws/src/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[6.559s] -- Installing: /home/junwoo/dev_ws/src/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[6.559s] -- Installing: /home/junwoo/dev_ws/src/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[6.560s] -- Installing: /home/junwoo/dev_ws/src/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[6.560s] -- Installing: /home/junwoo/dev_ws/src/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[6.560s] -- Installing: /home/junwoo/dev_ws/src/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[6.560s] -- Installing: /home/junwoo/dev_ws/src/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[6.560s] -- Installing: /home/junwoo/dev_ws/src/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[6.561s] -- Installing: /home/junwoo/dev_ws/src/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[6.561s] -- Installing: /home/junwoo/dev_ws/src/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[6.561s] -- Installing: /home/junwoo/dev_ws/src/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[6.561s] -- Installing: /home/junwoo/dev_ws/src/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[6.561s] -- Installing: /home/junwoo/dev_ws/src/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[6.564s] Invoked command in '/home/junwoo/dev_ws/src/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/junwoo/dev_ws/src/build/cpp_pubsub
