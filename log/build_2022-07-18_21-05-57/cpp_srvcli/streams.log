@@ -1,0 +1,55 @@
+[0.020s] Invoking command in '/home/junwoo/dev_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/home/junwoo/dev_ws/install/tutorial_interfaces:/home/junwoo/dev_ws/install/cpp_pubsub:/home/junwoo/dev_ws/install/cpp_srvcli:/opt/ros/foxy /usr/bin/cmake --build /home/junwoo/dev_ws/build/cpp_srvcli -- -j8 -l8
+[0.045s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.065s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.232s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.264s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.267s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.375s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.426s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.428s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.584s] -- Found tutorial_interfaces: 0.0.0 (/home/junwoo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake)
+[0.592s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.710s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.711s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.711s] -- Configured cppcheck include dirs: 
+[0.711s] -- Configured cppcheck exclude dirs and/or files: 
+[0.712s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.712s] -- Configured cpplint exclude dirs and/or files: 
+[0.712s] -- Added test 'lint_cmake' to check CMake code style
+[0.713s] -- Added test 'uncrustify' to check C / C++ code style
+[0.713s] -- Configured uncrustify additional arguments: 
+[0.713s] -- Added test 'xmllint' to check XML markup files
+[0.716s] -- Configuring done
+[0.726s] -- Generating done
+[0.728s] -- Build files have been written to: /home/junwoo/dev_ws/build/cpp_srvcli
+[0.753s] [35m[1mScanning dependencies of target client[0m
+[0.753s] [35m[1mScanning dependencies of target server[0m
+[0.779s] [ 50%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o[0m
+[0.780s] [ 50%] [32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o[0m
+[2.799s] [ 75%] [32m[1mLinking CXX executable server[0m
+[2.938s] [ 75%] Built target server
+[3.093s] [100%] [32m[1mLinking CXX executable client[0m
+[3.232s] [100%] Built target client
+[3.245s] Invoked command in '/home/junwoo/dev_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/home/junwoo/dev_ws/install/tutorial_interfaces:/home/junwoo/dev_ws/install/cpp_pubsub:/home/junwoo/dev_ws/install/cpp_srvcli:/opt/ros/foxy /usr/bin/cmake --build /home/junwoo/dev_ws/build/cpp_srvcli -- -j8 -l8
+[3.280s] Invoking command in '/home/junwoo/dev_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/home/junwoo/dev_ws/install/tutorial_interfaces:/home/junwoo/dev_ws/install/cpp_pubsub:/home/junwoo/dev_ws/install/cpp_srvcli:/opt/ros/foxy /usr/bin/cmake --install /home/junwoo/dev_ws/build/cpp_srvcli
+[3.288s] -- Install configuration: ""
+[3.288s] -- Installing: /home/junwoo/dev_ws/install/cpp_srvcli/lib/cpp_srvcli/server
+[3.289s] -- Set runtime path of "/home/junwoo/dev_ws/install/cpp_srvcli/lib/cpp_srvcli/server" to ""
+[3.289s] -- Installing: /home/junwoo/dev_ws/install/cpp_srvcli/lib/cpp_srvcli/client
+[3.290s] -- Set runtime path of "/home/junwoo/dev_ws/install/cpp_srvcli/lib/cpp_srvcli/client" to ""
+[3.290s] -- Installing: /home/junwoo/dev_ws/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+[3.290s] -- Installing: /home/junwoo/dev_ws/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+[3.290s] -- Up-to-date: /home/junwoo/dev_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+[3.290s] -- Installing: /home/junwoo/dev_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+[3.291s] -- Up-to-date: /home/junwoo/dev_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+[3.291s] -- Installing: /home/junwoo/dev_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+[3.291s] -- Up-to-date: /home/junwoo/dev_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+[3.291s] -- Up-to-date: /home/junwoo/dev_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+[3.291s] -- Up-to-date: /home/junwoo/dev_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+[3.291s] -- Installing: /home/junwoo/dev_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+[3.291s] -- Installing: /home/junwoo/dev_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+[3.291s] -- Up-to-date: /home/junwoo/dev_ws/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+[3.292s] -- Up-to-date: /home/junwoo/dev_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+[3.292s] -- Up-to-date: /home/junwoo/dev_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+[3.292s] -- Installing: /home/junwoo/dev_ws/install/cpp_srvcli/share/cpp_srvcli/package.xml
+[3.294s] Invoked command in '/home/junwoo/dev_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/home/junwoo/dev_ws/install/tutorial_interfaces:/home/junwoo/dev_ws/install/cpp_pubsub:/home/junwoo/dev_ws/install/cpp_srvcli:/opt/ros/foxy /usr/bin/cmake --install /home/junwoo/dev_ws/build/cpp_srvcli
